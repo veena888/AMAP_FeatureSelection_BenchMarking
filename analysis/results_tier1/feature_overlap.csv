@@ -1,0 +1,23 @@
+,mRMR,Elastic Net,Mutual Information,RFE,n_methods,n_stable
+AAC_S,True,True,True,True,4,4
+Length,True,True,True,True,4,4
+AAC_A,True,True,True,True,4,3
+AAC_I,True,True,True,True,4,3
+AAC_T,True,True,True,True,4,3
+AAC_V,True,True,True,True,4,3
+AromaticFrac,True,True,True,True,4,3
+AAC_G,True,True,True,True,4,1
+AAC_F,True,True,True,False,3,2
+AAC_N,True,True,False,True,3,2
+HydrophobicFrac,True,False,True,True,3,2
+pI,True,True,True,False,3,2
+K_frac,False,True,True,True,3,1
+H_frac,True,True,False,True,3,0
+AAC_L,False,False,True,True,2,0
+NetCharge,False,False,True,False,1,1
+AAC_C,False,False,True,False,1,0
+AAC_M,False,True,False,False,1,0
+AAC_W,False,False,False,True,1,0
+AAC_Y,True,False,False,False,1,0
+BomanIndex,False,False,False,True,1,0
+E_frac,True,False,False,False,1,0

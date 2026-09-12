@@ -1,0 +1,5 @@
+tier,blocks,n_features,train_rows,test_rows
+tier1_27,aac + core,27,1818,455
+tier2_ctd,aac + core + ctd,162,1818,455
+tier3_dpc,aac + core + ctd + dpc,562,1818,455
+tier4_pse,aac + core + ctd + dpc + pseaac,567,1818,455

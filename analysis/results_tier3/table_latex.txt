@@ -1,0 +1,30 @@
+% Table 1: nested cross-validation on the training set (controls below rule)
+\begin{tabular}{l r rrrrr}
+\hline
+Method & $n$ & Accuracy & Sensitivity & Specificity & MCC & ROC-AUC \\
+\hline
+Baseline & 562 & 0.977 $\pm$ 0.006 & 0.707 $\pm$ 0.087 & 0.994 $\pm$ 0.004 & 0.778 $\pm$ 0.061 & 0.920 $\pm$ 0.040 \\
+mRMR & 140 & 0.977 $\pm$ 0.006 & 0.704 $\pm$ 0.083 & 0.994 $\pm$ 0.003 & 0.780 $\pm$ 0.058 & 0.920 $\pm$ 0.038 \\
+Elastic Net & 181 & 0.974 $\pm$ 0.006 & 0.705 $\pm$ 0.079 & 0.991 $\pm$ 0.004 & 0.757 $\pm$ 0.059 & 0.915 $\pm$ 0.043 \\
+Mutual Information & 140 & 0.974 $\pm$ 0.007 & 0.682 $\pm$ 0.086 & 0.993 $\pm$ 0.005 & 0.753 $\pm$ 0.065 & 0.923 $\pm$ 0.033 \\
+RFE & 140 & 0.976 $\pm$ 0.007 & 0.718 $\pm$ 0.092 & 0.993 $\pm$ 0.004 & 0.778 $\pm$ 0.070 & 0.914 $\pm$ 0.042 \\
+\hline
+Length only & 1 & 0.877 $\pm$ 0.024 & 0.587 $\pm$ 0.107 & 0.896 $\pm$ 0.026 & 0.342 $\pm$ 0.070 & 0.793 $\pm$ 0.061 \\
+\hline
+\end{tabular}
+
+% Table 2: independent test set (controls below rule)
+\begin{tabular}{l r rrrrr}
+\hline
+Method & $n$ & Accuracy & Sensitivity & Specificity & MCC & ROC-AUC \\
+\hline
+Baseline & 562 & 0.980 & 0.750 & 0.995 & 0.818 & 0.922 \\
+mRMR & 140 & 0.985 & 0.786 & 0.998 & 0.859 & 0.949 \\
+Elastic Net & 181 & 0.978 & 0.786 & 0.991 & 0.804 & 0.950 \\
+Mutual Information & 140 & 0.974 & 0.750 & 0.988 & 0.764 & 0.918 \\
+RFE & 140 & 0.980 & 0.750 & 0.995 & 0.818 & 0.940 \\
+\hline
+Length only & 1 & 0.897 & 0.679 & 0.911 & 0.428 & 0.845 \\
+Length rule & 1 & 0.969 & 0.500 & 1.000 & 0.696 & 0.772 \\
+\hline
+\end{tabular}

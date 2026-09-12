@@ -1,0 +1,8 @@
+Method,n_features,TP,FN,FP,TN
+Baseline,562,21,7,2,425
+mRMR,140,22,6,1,426
+Elastic Net,181,22,6,4,423
+Mutual Information,140,21,7,5,422
+RFE,140,21,7,2,425
+Length only,1,19,9,38,389
+Length rule (no model),1,14,14,0,427
